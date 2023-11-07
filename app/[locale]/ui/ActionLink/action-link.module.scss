@@ -1,0 +1,27 @@
+.link {
+	color: var(--text-primary);
+	font-size: 2rem;
+	line-height: 150%;
+	padding: 8px 24px;
+	border-radius: var(--border-radius);
+	cursor: pointer;
+
+	transition: background-color 0.15s ease-in;
+}
+
+.default {
+	background-color: var(--bg-primary);
+
+	&:hover {
+		background-color: var(--link-hover);
+	}
+
+	&:active {
+		background-color: var(--link-active);
+	}
+}
+
+.filled {
+	font-family: var(--merriweather);
+	background-color: var(--bg-secondary);
+}

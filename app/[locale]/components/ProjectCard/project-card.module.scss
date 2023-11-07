@@ -1,0 +1,22 @@
+.card {
+	display: flex;
+	flex-direction: column;
+	gap: 16px;
+	width: 100%;
+	max-width: 800px;
+
+	.image {
+		width: 100%;
+		border-radius: var(--border-radius);
+	}
+	.textGroup {
+		display: flex;
+		flex-direction: column;
+		gap: 8px;
+		max-width: 544px;
+
+		> p {
+			font-size: 1.8rem;
+		}
+	}
+}

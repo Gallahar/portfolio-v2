@@ -1,0 +1,28 @@
+.typography {
+	color: var(--text-primary);
+	line-height: 150%;
+	font-weight: 400;
+	white-space: pre-line;
+}
+
+.h1 {
+	font-size: 3.2rem;
+	font-family: var(--merriweather);
+}
+
+.h2 {
+	font-size: 3.2rem;
+	font-family: var(--merriweather);
+}
+.h3 {
+	font-size: 2rem;
+}
+
+.span {
+	font-size: 1.6rem;
+	text-transform: uppercase;
+	color: var(--text-secondary);
+}
+.p {
+	font-size: 2rem;
+}

@@ -1,0 +1,23 @@
+.footer {
+	margin-top: 64px;
+	padding-bottom: 48px;
+	.container {
+		display: flex;
+		flex-direction: column;
+		gap: 32px;
+
+		.linksWrapper {
+			display: flex;
+			justify-content: space-between;
+
+			.links {
+				display: flex;
+				gap: 56px;
+			}
+
+			> p {
+				color: var(--text-secondary);
+			}
+		}
+	}
+}

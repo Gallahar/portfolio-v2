@@ -1,0 +1,22 @@
+.localeSwitcher {
+	display: flex;
+	gap: 4px;
+	padding: 4px;
+	background-color: var(--bg-secondary);
+	max-width: 126px;
+	border-radius: var(--border-radius);
+
+	.locale {
+		text-transform: uppercase;
+		padding: 5px 16px;
+		font-size: 2rem;
+		line-height: 150%;
+		color: var(--text-secondary);
+		border-radius: 6px;
+
+		&[data-active='true'] {
+			color: var(--bg-secondary);
+			background-color: var(--bg-active);
+		}
+	}
+}

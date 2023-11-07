@@ -1,0 +1,15 @@
+.heroSection {
+	margin-top: 152px;
+	.speechBlock {
+		display: flex;
+		flex-direction: column;
+		gap: 16px;
+		max-width: 832px;
+
+		.accent {
+			line-height: inherit;
+			font-size: inherit;
+			color: var(--text-secondary);
+		}
+	}
+}

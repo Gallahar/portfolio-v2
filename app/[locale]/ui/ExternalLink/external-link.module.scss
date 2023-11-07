@@ -1,0 +1,28 @@
+.externalLink {
+	font-size: 2rem;
+	line-height: 150%;
+	position: relative;
+	overflow: hidden;
+	padding-block: 0.2em;
+	color: var(--text-primary);
+	cursor: pointer;
+
+	&::after {
+		content: '';
+		position: absolute;
+		bottom: 0;
+		left: 0;
+		width: 100%;
+		height: 0.2em;
+		border-radius: var(--border-radius)	;
+		background-color: var(--text-primary);
+		transform: translate3d(-100%, 0, 0);
+		opacity: 0;
+		transition: all 200ms;
+	}
+
+	&:hover::after {
+		transform: translate3d(0, 0, 0);
+		opacity: 1;
+	}
+}

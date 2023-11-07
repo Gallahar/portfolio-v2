@@ -1,0 +1,57 @@
+{
+	"header": {
+		"fullName": { "title": "David Kushnir", "href": "/" },
+		"links": ["Projects", "About me", "Resume", "Contacts"]
+	},
+	"hero": {
+		"title": "Hi, I'm David, an aspiring frontend developer with a passion for creating cool and friendly user interfaces.",
+		"speech": {
+			"accent": "From background in software engineering",
+			"rest": "to now user interfaces. I’m motivated by problem-solving, experienced in design thinking, and driven by empathy to create user-centered designs."
+		}
+	},
+	"projects": [
+		{
+			"heading": "Website for dietitian.",
+			"description": "Personal website for dietitian with admin dashboard for adding custom content",
+			"date": "feb 2023 - may 2023"
+		},
+		{
+			"heading": "Students education platform",
+			"description": "An educational platform where instructors can create courses and tests for courses for students, as well as track passing statistics.",
+			"date": "jun 2023 - jun 2023"
+		},
+		{
+			"heading": "Chat web application",
+			"description": "Online chat in which you can communicate in real time, exchanging messages and pictures, as well as you can modify your profile.",
+			"date": "jun 2023 - jul 2023"
+		},
+		{
+			"heading": "Landing for cryptobot",
+			"description": "A simple landing page with animations and a dark theme, performed for a contest, took 4th place.",
+			"date": "oct 2023 - oct 2023"
+		}
+	],
+	"footer": {
+		"title": "Thank you for taking the time to view my work, below\nyou will find links to contact me.",
+		"links": [
+			{
+				"title": "Github",
+				"href": ""
+			},
+			{
+				"title": "LinkedIn",
+				"href": ""
+			},
+			{
+				"title": "Telegram",
+				"href": ""
+			},
+			{
+				"title": "david.kushnir.d@gmail.com",
+				"href": ""
+			}
+		],
+		"phrase": "Now I'm interested in functional programming."
+	}
+}

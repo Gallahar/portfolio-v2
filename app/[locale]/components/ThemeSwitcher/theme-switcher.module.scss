@@ -1,0 +1,10 @@
+.themeSwitcher {
+	background-color: var(--bg-secondary);
+	padding: 1.2rem;
+	border: none;
+	border-radius: var(--border-radius);
+
+	path {
+		fill: var(--text-primary);
+	}
+}
